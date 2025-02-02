@@ -1,0 +1,15 @@
+# Detect JSON files
+*.json linguist-detectable=true
+
+# Detect JavaScript files
+*.js linguist-detectable=true
+
+# Detect CSS files
+*.css linguist-detectable=true
+
+# Exclude node_modules from language detection
+node_modules/* linguist-vendored
+
+# Include hidden configuration files
+.eslintrc.json linguist-detectable=true
+.gitignore linguist-detectable=true
