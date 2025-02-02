@@ -1,10 +1,12 @@
-# Detect JSON files
-*.json linguist-detectable=true
-
-# Detect JavaScript files
+# Detect JavaScript files (React and Next.js)
 *.js linguist-detectable=true
+*.jsx linguist-detectable=true
 
-# Detect CSS files
+# Detect TypeScript files (if used)
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
+
+# Detect CSS files (including Tailwind CSS)
 *.css linguist-detectable=true
 
 # Exclude node_modules from language detection
